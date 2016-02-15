@@ -62,7 +62,7 @@ $(document).ready(function(){
     },2500);
     }
   function changeTo(num){ 
-    var goLeft = num * 1360;
+    var goLeft = num * 1920;
     $(".imgList").animate({left: "-" + goLeft + "px"},500);
     $(".indexList").find("li").removeClass("indexOn").eq(num).addClass("indexOn");
   }
