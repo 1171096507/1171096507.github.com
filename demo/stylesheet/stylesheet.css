@@ -55,10 +55,21 @@
 .login a{
 	padding-left:12px; 
 }
-
- #banner{position:relative;height: 500px;overflow: hidden;padding-top: 60px;}
-  .imgList{position:relative;width:2720px;height:500px;z-index: 7;overflow: hidden;}
-  .imgList li{float:left;display: inline;width: 1360px;}
+.container{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+	padding-top: 60px;
+	text-align: center;
+}
+ .banner{left:50%;margin-left: -960px;
+text-align:center;width:1920px;position:relative;height: 500px;overflow: hidden;}
+  .imgList{position:relative;width:3840px;height:500px;z-index: 7;overflow: hidden;}
+  .imgList li{float:left;display: inline;}
+  #pic{
+  	position: relative;
+  }
   #prev,
   #next{width:32px;position: absolute;top:50%;z-index: 8;cursor: pointer;filter:alpha(opacity=20);}
   #prev{left: 10px;}
