@@ -296,6 +296,9 @@ text-align:center;width:1920px;position:relative;height: 500px;overflow: hidden;
 	left: 0;
 }
 .experiment_show li .div_c a{
+	width: 550px;
+	height: 240px;
+	display: block;
 	color: #fff;
 	text-decoration: none;
 }
