@@ -67,9 +67,9 @@ $(document).ready(function(){
     $(".indexList").find("li").removeClass("indexOn").eq(num).addClass("indexOn");
   }
     $(".video_show ul li ").hover(function(){
-    $(this).find(".div_b").stop().fadeToggle(500);
+    $(this).find(".div_b").stop(true,false).slideToggle(500);
     });
      $(".experiment_show ul li ").hover(function(){
-    $(this).find(".div_c").stop().fadeToggle(500);
+    $(this).find(".div_c").stop(true,false).slideToggle(500);
     });
 });
