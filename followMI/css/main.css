@@ -4,6 +4,9 @@ body,div,ul,li,a,img{
 	list-style: none;
 	text-decoration: none;
 }
+body{
+	overflow-x:hidden;
+}
 .container{
 	margin:0 auto;
 	width: 1226px;
