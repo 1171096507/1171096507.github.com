@@ -292,7 +292,7 @@ body{
 	text-align: center;overflow: hidden;
 } 
 #banner{
-	width: 460px;
+	height: 460px;
 	overflow: hidden;
 }
 .banner li { 
